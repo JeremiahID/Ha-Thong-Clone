@@ -95,6 +95,8 @@ h1 a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #b8b8b85b;
+    border-top: 0px;
 }
 
 :where(.fall, .date) :is(h2){
@@ -109,6 +111,7 @@ h1 a{
     align-items: center;
     height: 15vh;
     border: 1px solid #E6E6E6  ;
+    border-top: 0px;
 }
 
 .prefall h1{
@@ -259,4 +262,41 @@ hr{
     font-size: 1rem;
     word-spacing: 2px;
     line-height: 30px;
+}
+
+.sectionFour{
+    height: 80vh;
+
+}
+
+.sectionFour .topHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+:where(.bestSeller) :is(h2){
+    font-family: Lora;
+    font-weight: 100;
+}
+
+.topHead .prefall{
+    width: 50%;
+    border: 0px;
+}
+
+.topHead .prefall hr{
+    border: 1px solid #E6E6E6 ;
+    width: 90%;
+}
+
+.veiwAll button{
+    width: 10vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid #f0eeee ;
+}
+    
+.veiwAll button:hover{
+    background-color: #E6E6E6 ;
 }
