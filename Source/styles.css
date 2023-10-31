@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
 }
+button:hover{
+    cursor: pointer;
+}
 
 html{
     scroll-behavior:smooth;
@@ -265,7 +268,7 @@ hr{
 }
 
 .sectionFour{
-    height: 80vh;
+    height: 100vh;
 
 }
 
@@ -299,4 +302,93 @@ hr{
     
 .veiwAll button:hover{
     background-color: #E6E6E6 ;
+}
+
+.bestSellerDresses{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 10px;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+}
+
+.fisrtSpace, .lastSpace{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.bestSellerOne, .bestSellerTwo, .bestSellerThree, .bestSellerFour{
+    grid-column: span 1;
+    grid-row: span 1;
+
+}
+
+
+
+:where(.bestSellerOne, .bestSellerTwo, .bestSellerThree, .bestSellerFour ) :is(.bestSellerText){
+    height: 10vh;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestSellerText{
+    font-family: Nanum Myeongjo;
+    font-weight: 100;
+
+}
+
+.bestSellerOneDress, .bestSellerTwoDress, .bestSellerThreeDress, .bestSellerFourDress {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #E6E6E6;
+
+}
+
+.bestSellerOneDress{
+    background-image: url("/Public/Images/best-seller-one.jpg");
+}
+
+.bestSellerOneDress:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("/Public/Images/best-seller-one-model.jpg");
+}
+
+.bestSellerTwoDress{
+    background-image: url("/Public/Images/best-seller-two.jpg");
+
+}
+
+.bestSellerTwoDress:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("/Public/Images/best-seller-two-model.jpg");
+    
+}
+
+.bestSellerThreeDress{
+    background-image: url("/Public/Images/best-seller-three.jpg");
+
+}
+
+.bestSellerThreeDress:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("/Public/Images/best-seller-three-model.jpg");
+
+}
+
+.bestSellerFourDress{
+    background-image: url("/Public/Images/best-seller-four.jpg");
+
+}
+
+.bestSellerFourDress:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("/Public/Images/best-seller-four-model.jpg");
+
 }
