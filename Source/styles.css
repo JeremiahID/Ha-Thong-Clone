@@ -1,8 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
   @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,600&family=Nanum+Myeongjo&display=swap');
+
+
 
 *{
     box-sizing: border-box;
@@ -37,7 +39,7 @@ body{
 
 header{
     height: 9vh;
-    background-color: #B8B8B8;
+    background-color: #B6B6B6;
     position: sticky;
     top: 0;
 }
@@ -392,3 +394,79 @@ hr{
     background-image: url("/Public/Images/best-seller-four-model.jpg");
 
 }
+
+.sectionFive{
+    margin-top: 8vh;
+    height: 70vh;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+:where(.footerName) :is(h1){
+    font-family: Bodoni Moda;
+    padding: 1.5rem;
+}
+
+:where(.footerLinks) :is(a){
+  padding: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-family:Bodoni Moda;
+  font-weight: 400;
+}
+
+.footerContacts{
+    margin: 2rem;
+    display: flex;
+}
+
+:where(.footerContacts) :is(input){
+   width: 15vw;
+   height: 5vh;
+   background-color: white;
+   font-family: Bodoni Moda;
+   border: 0px;
+   padding: 1rem;
+}
+
+:where(.footerContacts) :is(button){
+    width: 13vw;
+    height: 5vh;
+    background-color: white;
+    font-family: Bodoni Moda;
+    border: 0px;
+    margin-left: 0.2rem;
+}
+
+:where(.footerContacts) :is(button:hover){
+    cursor: pointer;
+    background-color: #E6E6E6;
+}
+
+:where(.footerSocials) :is(a){
+    margin: 0.5rem;
+    text-decoration: none;
+   
+}
+
+:where(a) :is(img){
+   width: 2vw;
+   height: 4vh;
+}
+
+:where(a) :is(img:hover){
+    width: 2vw;
+    height: 4vh;
+    background-color: #f5eeee79;
+    
+ }
