@@ -467,6 +467,13 @@ footer{
 :where(a) :is(img:hover){
     width: 2vw;
     height: 4vh;
-    background-color: #f5eeee79;
+    background-color: #f5eeee;
     
  }
+
+ :where(.footerNote) :is(p){
+   padding: 1rem;
+   font-family:Bodoni Moda;
+   font-weight: 300;
+   
+}
