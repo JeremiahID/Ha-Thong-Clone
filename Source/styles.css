@@ -495,9 +495,9 @@ footer{
 /*  This is the section for the hidden */
 
 .show{
-    display:block ;
-    z-index: 1;
+    display:block;
     height: 99vh;
     width: 100%;
     background-color: whitesmoke;
+    
 }
