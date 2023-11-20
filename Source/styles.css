@@ -51,9 +51,17 @@ nav{
     padding: 5px;
 }
 
-.left img{
-    width: 60px;
-    height: 20px;
+.left button{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+
+button svg{
+  width: 5vw;
+  height: 5vh;
+  background-color: transparent;
+
 }
 
 .right{
@@ -79,6 +87,11 @@ h1 a{
     background-position: center;
     background-size: cover;
     height: 91vh;
+}
+
+.sectionOneShow{
+    display: none;
+
 }
 
 .sectionTwo{
@@ -476,4 +489,15 @@ footer{
    font-family:Bodoni Moda;
    font-weight: 300;
    
+}
+
+
+/*  This is the section for the hidden */
+
+.show{
+    display:block ;
+    z-index: 1;
+    height: 99vh;
+    width: 100%;
+    background-color: whitesmoke;
 }
