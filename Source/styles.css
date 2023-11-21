@@ -51,7 +51,7 @@ nav{
     padding: 5px;
 }
 
-.left button{
+.left button, .right button{
     background-color: transparent;
     border: 0px;
     color: white;
@@ -500,4 +500,10 @@ footer{
     width: 100%;
     background-color: whitesmoke;
     
+}
+
+.shop{
+    width: 25%;
+    height: 60vh;
+    background-color: orange;
 }
