@@ -41,7 +41,8 @@ header{
     height: 9vh;
     background-color: #B6B6B6;
     position: sticky;
-    top: 0;
+    top: 0px;
+    
 }
 
 nav{
@@ -492,18 +493,34 @@ footer{
 }
 
 
-/*  This is the section for the hidden */
+/*  This is the section fo Java Script clasess*/
+
+
+
 
 .show{
     display:block;
-    height: 99vh;
+    height: 150vh;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(179, 30, 30);
     
 }
 
+
 .shop{
-    width: 25%;
-    height: 60vh;
-    background-color: orange;
+    display: block;
+    width: 30%;
+    height: 70vh;
+    background-color: whitesmoke;
+    float: right;
+    position:sticky;
+    top: 9vh;
+    right: 0vw; 
+
+}
+
+.shopHeader{
+    border-top: 2px solid white;
+    background-color: #B6B6B6;
+    height: 5vh;
 }
