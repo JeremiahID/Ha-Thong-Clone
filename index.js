@@ -13,14 +13,14 @@ const SectionOne = document.querySelector('.sectionOne');
 const SectionTwo = document.querySelector('.sectionTwo');
 const SectionFour = document.querySelector('.sectionFour');
 const Cart  =  document.querySelector('.shopBag')
-const ShopHeader =  document.querySelector('.shopHeader')
+
 
 Menu.addEventListener('click' , () => {
     SectionOne.classList.toggle("sectionOneShow");
     SectionTwo.classList.toggle("sectionOneShow");
     SectionFour.classList.toggle("sectionOneShow");
     Cart.classList.toggle("sectionOneShow");
-    ShopHeader.classList.toggle("sectiononeShow")   
+   
 })
 
 
