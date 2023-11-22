@@ -506,14 +506,12 @@ footer{
     
 }
 
-
-
 .shop{
     display: block;
-    border: 2px solid white;
+    border: 1px solid white;
     width: 30%;
     height: 70vh;
-    background-color: rgb(175, 3, 3);
+    background-color: rgba(112, 105, 105, 0.205);
     float: right;
     position:sticky;
     top: 9vh;
@@ -521,10 +519,16 @@ footer{
 
 }
 
-.shopHeader{
+.mainHeader{
     background-color: #3d3939;
     height: 5vh;
-    display: none;
+    width: 100%;
+    border-bottom: 1px solid white;
+    /* float: right;
+    position:sticky;
+    top: 9vh;
+    right: 0vw;  */
+   
     
    
 }
