@@ -3,13 +3,14 @@
 const shoppingCart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
 const MainHead = document.querySelector('.mainHead')
+const CartHead  =  document.querySelector('.cartSummary')
+const SummaryHead = document.ge
 
 shoppingCart.addEventListener('click' , () => {
     ShopBags.classList.toggle("shop");
-    MainHead.classList.toggle("mainHeader")
-    
-
-    
+    MainHead.classList.toggle("mainHeader");
+    CartHead.classList.toggle("cartHead");
+  
 
 })
 

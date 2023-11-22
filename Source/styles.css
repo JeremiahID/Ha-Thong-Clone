@@ -511,24 +511,33 @@ footer{
     border: 1px solid white;
     width: 30%;
     height: 70vh;
-    background-color: rgba(112, 105, 105, 0.205);
+    background-color: rgba(112, 105, 105, 0.459);
     float: right;
     position:sticky;
     top: 9vh;
     right: 0vw; 
+    transition: all 0.4s ease-in 0s;
 
 }
 
 .mainHeader{
-    background-color: #3d3939;
-    height: 5vh;
+    background-color: #3d393954;
+    height: 7vh;
     width: 100%;
     border-bottom: 1px solid white;
+    transition: all 0.4s ease-in 0s;
     /* float: right;
     position:sticky;
     top: 9vh;
     right: 0vw;  */
    
-    
-   
+}
+
+.cartHead {
+    color: white;
+    text-align: center;
+    padding-top: 1.3vh;
+    font-family: calibri;
+    font-weight: lighter;
+
 }

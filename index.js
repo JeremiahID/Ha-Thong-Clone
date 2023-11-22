@@ -19,8 +19,8 @@ Menu.addEventListener('click' , () => {
     SectionOne.classList.toggle("sectionOneShow");
     SectionTwo.classList.toggle("sectionOneShow");
     SectionFour.classList.toggle("sectionOneShow");
-    Cart.classList.toggle("sectionOneShow");
-    
+    Cart.classList.toggle("sectionOneShow")
+   
 })
 
 
