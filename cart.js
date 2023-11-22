@@ -13,8 +13,6 @@ shoppingCart.addEventListener('click' , () => {
 })
 
 
-
-
 // This is how to make a clas with a disply of none to become a display of block
 // const element = document.getElementById('myElement');
 // element.style.display = 'block';
