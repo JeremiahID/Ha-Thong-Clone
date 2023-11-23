@@ -526,10 +526,7 @@ footer{
     width: 100%;
     border-bottom: 1px solid white;
     transition: all 0.4s ease-in 0s;
-    /* float: right;
-    position:sticky;
-    top: 9vh;
-    right: 0vw;  */
+
    
 }
 
@@ -540,4 +537,8 @@ footer{
     font-family: calibri;
     font-weight: lighter;
 
+}
+
+.cartSummary{
+    display: none;
 }

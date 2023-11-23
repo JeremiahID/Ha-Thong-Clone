@@ -10,6 +10,7 @@ shoppingCart.addEventListener('click' , () => {
     ShopBags.classList.toggle("shop");
     MainHead.classList.toggle("mainHeader");
     CartHead.classList.toggle("cartHead");
+    CartHead.style.display = 'block';
   
 
 })
