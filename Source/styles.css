@@ -522,10 +522,10 @@ footer{
 
 .shop{
     display: block;
-    border: 1px solid white;
+    border: 1px solid rgba(95, 92, 92, 0.562);
     width: 30%;
-    height: 70vh;
-    background-color: rgba(112, 105, 105, 0.459);
+    height: 85vh;
+    background-color: rgb(255, 255, 255);
     float: right;
     position:sticky;
     top: 9vh;
@@ -536,7 +536,7 @@ footer{
 
 .mainHeader{
     background-color: #3d393954;
-    height: 7vh;
+    height: 10vh;
     width: 100%;
     border-bottom: 1px solid white;
     transition: all 0.4s ease-in 0s;
@@ -554,5 +554,5 @@ footer{
 }
 
 .cartSummary{
-    display: none;
+    display:none;
 }

@@ -11,9 +11,9 @@ shoppingCart.addEventListener('click' , () => {
     MainHead.classList.toggle("mainHeader");
     CartHead.classList.toggle("cartHead");
     if (CartHead.style.display === "none") {
-        CartHead.style.display = "block";
-      } else {
         CartHead.style.display = "none";
+      } else {
+        CartHead.style.display = "block";
       }
   
 })
