@@ -4,15 +4,18 @@ const shoppingCart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
 const MainHead = document.querySelector('.mainHead')
 const CartHead  =  document.querySelector('.cartSummary')
-const SummaryHead = document.ge
+
 
 shoppingCart.addEventListener('click' , () => {
     ShopBags.classList.toggle("shop");
     MainHead.classList.toggle("mainHeader");
     CartHead.classList.toggle("cartHead");
-    CartHead.style.display = 'block';
+    if (CartHead.style.display === "none") {
+        CartHead.style.display = "block";
+      } else {
+        CartHead.style.display = "none";
+      }
   
-
 })
 
 
@@ -28,4 +31,12 @@ shoppingCart.addEventListener('click' , () => {
 // const element = document.getElementById('myElement');
 // element.style.display = 'block';
 
-
+// function toggleElement() {
+//     var element = document.getElementById("myElement");
+//     if (element.style.display === "none") {
+//       element.style.display = "block";
+//     } else {
+//       element.style.display = "none";
+//     }
+//   }
+  

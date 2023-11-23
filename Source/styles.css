@@ -207,12 +207,14 @@ hr{
     background-image: url("/Public/Images/gown-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .container-one:hover{
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/gown.jpg");
     cursor: pointer;   
+    background-position: center;
 }
 
 .container-two{
@@ -221,12 +223,14 @@ hr{
     background-image: url("/Public/Images/blouse-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .container-two:hover{
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/blouse.png");
     cursor: pointer;
+    background-position: center;
 }
 
 .container-three{
@@ -235,6 +239,7 @@ hr{
     background-image: url("/Public/Images/crop-top-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -242,6 +247,7 @@ hr{
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/crop-top.jpg");
     cursor: pointer;
+    background-position: center;
 }
 
 .textContainerTwo{
@@ -365,16 +371,19 @@ hr{
 
 .bestSellerOneDress{
     background-image: url("/Public/Images/best-seller-one.jpg");
+    background-position: center;
 }
 
 .bestSellerOneDress:hover{
     cursor: pointer;
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/best-seller-one-model.jpg");
+    background-position: center;
 }
 
 .bestSellerTwoDress{
     background-image: url("/Public/Images/best-seller-two.jpg");
+    background-position: center;
 
 }
 
@@ -382,11 +391,13 @@ hr{
     cursor: pointer;
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/best-seller-two-model.jpg");
+    background-position: center;
     
 }
 
 .bestSellerThreeDress{
     background-image: url("/Public/Images/best-seller-three.jpg");
+    background-position: center;
 
 }
 
@@ -394,11 +405,13 @@ hr{
     cursor: pointer;
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/best-seller-three-model.jpg");
+    background-position: center;
 
 }
 
 .bestSellerFourDress{
     background-image: url("/Public/Images/best-seller-four.jpg");
+    background-position: center;
 
 }
 
@@ -406,6 +419,7 @@ hr{
     cursor: pointer;
     transition: all 1s ease 0s;
     background-image: url("/Public/Images/best-seller-four-model.jpg");
+    background-position: center;
 
 }
 
