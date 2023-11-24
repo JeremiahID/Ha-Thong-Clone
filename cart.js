@@ -10,13 +10,20 @@ shoppingCart.addEventListener('click' , () => {
     ShopBags.classList.toggle("shop");
     MainHead.classList.toggle("mainHeader");
     CartHead.classList.toggle("cartHead");
-    if (CartHead.style.display === "none") {
+    if (CartHead.style.display === "block") {
         CartHead.style.display = "none";
       } else {
         CartHead.style.display = "block";
+        
       }
   
 })
+
+
+window.onload = function() {
+  const CartSum  =  document.querySelector('.cartSummary');
+  CartSum.style.display = "none";
+}
 
 
 // const ShopHeader = document.querySelector('.shopHeader')

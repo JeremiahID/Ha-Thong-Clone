@@ -554,5 +554,5 @@ footer{
 }
 
 .cartSummary{
-    display:none;
+    display:block;
 }
