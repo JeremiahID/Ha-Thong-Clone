@@ -1,3 +1,10 @@
+/* Thisis for the cart section upon window.Load*/
+
+window.onload = function() {
+  const CartSum  =  document.querySelector('.cartSummary');
+  CartSum.style.display = "none";
+}
+
 
 /*this is the js for the cart drop down*/
 const shoppingCart = document.querySelector('#cart');
@@ -20,10 +27,7 @@ shoppingCart.addEventListener('click' , () => {
 })
 
 
-window.onload = function() {
-  const CartSum  =  document.querySelector('.cartSummary');
-  CartSum.style.display = "none";
-}
+
 
 
 // const ShopHeader = document.querySelector('.shopHeader')
