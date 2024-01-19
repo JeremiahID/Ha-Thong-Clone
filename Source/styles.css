@@ -84,7 +84,7 @@ h1 a{
 }
 
 .sectionOne{
-    background-image: url("/Public/Images/Main\ Image.jpg");
+    background-image: url("/Public/Images/hero_cover.jpg");
     background-position: center;
     background-size: cover;
     height: 91vh;
