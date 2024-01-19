@@ -204,7 +204,7 @@ hr{
 .container-one{
     grid-column: span 1;
     grid-row: span 2;
-    background-image: url("/Images/gown-model.jpg");
+    background-image: url("../Images/gown-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,7 +212,7 @@ hr{
 
 .container-one:hover{
     transition: all 1s ease 0s;
-    background-image: url("/Images/gown.jpg");
+    background-image: url("../Images/gown.jpg");
     cursor: pointer;   
     background-position: center;
 }
@@ -220,7 +220,7 @@ hr{
 .container-two{
     grid-column: span 1;
     grid-row: span 2;
-    background-image: url("/Images/blouse-model.jpg");
+    background-image: url("../Images/blouse-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -228,7 +228,7 @@ hr{
 
 .container-two:hover{
     transition: all 1s ease 0s;
-    background-image: url("/Images/blouse.png");
+    background-image: url("../Images/blouse.png");
     cursor: pointer;
     background-position: center;
 }
@@ -236,7 +236,7 @@ hr{
 .container-three{
     grid-column: span 1;
     grid-row: span 2;
-    background-image: url("/Images/crop-top-model.jpg");
+    background-image: url("../Images/crop-top-model.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -245,7 +245,7 @@ hr{
 
 .container-three:hover{
     transition: all 1s ease 0s;
-    background-image: url("/Images/crop-top.jpg");
+    background-image: url("../Images/crop-top.jpg");
     cursor: pointer;
     background-position: center;
 }
@@ -370,19 +370,19 @@ hr{
 }
 
 .bestSellerOneDress{
-    background-image: url("/Images/best-seller-one.jpg");
+    background-image: url("../Images/best-seller-one.jpg");
     background-position: center;
 }
 
 .bestSellerOneDress:hover{
     cursor: pointer;
     transition: all 1s ease 0s;
-    background-image: url("/Images/best-seller-one-model.jpg");
+    background-image: url("../Images/best-seller-one-model.jpg");
     background-position: center;
 }
 
 .bestSellerTwoDress{
-    background-image: url("/Images/best-seller-two.jpg");
+    background-image: url("../Images/best-seller-two.jpg");
     background-position: center;
 
 }
@@ -390,13 +390,13 @@ hr{
 .bestSellerTwoDress:hover{
     cursor: pointer;
     transition: all 1s ease 0s;
-    background-image: url("/Images/best-seller-two-model.jpg");
+    background-image: url("../Images/best-seller-two-model.jpg");
     background-position: center;
     
 }
 
 .bestSellerThreeDress{
-    background-image: url("/Images/best-seller-three.jpg");
+    background-image: url("../Images/best-seller-three.jpg");
     background-position: center;
 
 }
@@ -404,13 +404,13 @@ hr{
 .bestSellerThreeDress:hover{
     cursor: pointer;
     transition: all 1s ease 0s;
-    background-image: url("/Images/best-seller-three-model.jpg");
+    background-image: url("../Images/best-seller-three-model.jpg");
     background-position: center;
 
 }
 
 .bestSellerFourDress{
-    background-image: url("/Images/best-seller-four.jpg");
+    background-image: url("../Images/best-seller-four.jpg");
     background-position: center;
 
 }
@@ -418,7 +418,7 @@ hr{
 .bestSellerFourDress:hover{
     cursor: pointer;
     transition: all 1s ease 0s;
-    background-image: url("/Images/best-seller-four-model.jpg");
+    background-image: url("../Images/best-seller-four-model.jpg");
     background-position: center;
 
 }
