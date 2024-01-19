@@ -9,8 +9,8 @@ window.onload = function() {
 /*this is the js for the cart drop down*/
 const shoppingCart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
-const MainHead = document.querySelector('.mainHead')
-const CartHead  =  document.querySelector('.cartSummary')
+const MainHead = document.querySelector('.mainHead');
+const CartHead  =  document.querySelector('.cartSummary');
 
 
 shoppingCart.addEventListener('click' , () => {
@@ -19,7 +19,7 @@ shoppingCart.addEventListener('click' , () => {
     CartHead.classList.toggle("cartHead");
     if (CartHead.style.display === "block") {
         CartHead.style.display = "none";
-      } else {
+    }else {
         CartHead.style.display = "block";
         
       }
