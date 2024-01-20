@@ -21,6 +21,14 @@
     .textContainerOne, .textContainerTwo{
         display: none;
     }
+
+    .sectionThree p{
+        text-align: center;
+    }
+    
+    .text-space{
+        padding-left: 3vw;
+    }
     
 }
 

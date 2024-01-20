@@ -281,6 +281,10 @@ hr{
     align-items: center;
 }
 
+.text-space{
+    padding-left: 20vw;
+}
+
 :where(.sectionThree) :is(p){
     color: rgba(0, 0, 0, 0.767);
     font-family: Lora;
