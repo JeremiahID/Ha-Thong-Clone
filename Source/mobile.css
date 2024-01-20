@@ -55,11 +55,29 @@
         grid-row: span 1;
     }
 
+    .sectionFour{
+        height: 260vh;
+    }
+
     .bestSellerDresses{
-        height: 180vh;
+        height: 240vh;
         grid-template-columns: 1fr  ;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         row-gap: 1rem;
+        margin: 0.5rem;
+    }
+
+    .bestSellerOne, .bestSellerTwo, .bestSellerThree, .bestSellerFour{
+        grid-column: span 1;
+        grid-row: span 1;
+    
+    }
+
+    .bestSellerOneDress, .bestSellerTwoDress, .bestSellerThreeDress, .bestSellerFourDress {
+        height: 45vh;
+        background-size: contain;
+        border: 1px solid #E6E6E6;
+    
     }
 
     .fisrtSpace, .lastSpace{
