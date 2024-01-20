@@ -55,6 +55,18 @@
         grid-row: span 1;
     }
 
+    .bestSellerDresses{
+        height: 180vh;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 1rem;
+    }
+
+    .fisrtSpace, .lastSpace{
+        display: none;
+    }
+    
+
 
     
 
