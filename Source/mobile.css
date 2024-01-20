@@ -29,6 +29,12 @@
     .text-space{
         padding-left: 3vw;
     }
+
+    .bestSellerOneDress, .bestSellerTwoDress, .bestSellerThreeDress, .bestSellerFourDress {
+        background-size: contain;
+
+    
+    }
     
 }
 
@@ -48,6 +54,8 @@
         grid-column: span 1;
         grid-row: span 1;
     }
+
+
     
 
     
