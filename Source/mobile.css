@@ -44,25 +44,23 @@
     }
 
     #shopBag{
+        width: 40%;
 
-        width: 50%;
-
-    
     }
     
 }
 
 @media screen and (max-width:430px) {
 
-    .sectionOne{
+    
+    .sectionOne img{
+        object-position: center;
         height: 91vh;
         width: 100%;
     }
-    
-    .sectionOne img{
-        object-fit: cover;
-        height: 91vh;
-        width: 100%;
+
+    ::-webkit-scrollbar{
+        width: 5px;
     }
     
 
@@ -141,7 +139,10 @@
        height: 5vh;
     }
     
+    #shopBag{
+        width: 70%;
 
+    }
 
     
 
