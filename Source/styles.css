@@ -513,17 +513,17 @@ footer{
 
 /*  This is the section fo Java Script clasess*/
 
-
+/* 
 .show{
     display:block;
     height: 150vh;
     width: 100%;
     background-color: rgb(179, 30, 30);
     
-}
+} */
 
-.shop{
-    display: block;
+#shopBag{
+    display: none;
     border: 1px solid rgba(95, 92, 92, 0.562);
     width: 30%;
     height: 85vh;
@@ -536,7 +536,7 @@ footer{
 
 }
 
-.mainHeader{
+.mainHead{
     background-color: #3d393954;
     height: 10vh;
     width: 100%;
@@ -545,7 +545,7 @@ footer{
 
    
 }
-
+/*
 .cartHead {
     color: white;
     text-align: center;
@@ -553,7 +553,7 @@ footer{
     font-family: Nanum Myeongjo;
     font-weight: lighter;
 
-}
+} */
 
 /* .cartSummary{
     display:block;

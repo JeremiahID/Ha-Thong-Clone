@@ -1,7 +1,15 @@
 /*this is the js for the hambuger drop down*/
 const menu = document.querySelector('#menu');
-const Cart = document.querySelector('#cart')
-// const hiddenMenu = document.querySelector('.hiddenSection');
+const Cart = document.querySelector('#cart');
+const ShopBags = document.querySelector('#shopBag');
+
+Cart.addEventListener('click', () =>{
+    if(ShopBags.style.display === "none"){
+        ShopBags.style.display = "block";
+    } else{
+        ShopBags.style.display = "none";
+    }
+} )
 
 
 
