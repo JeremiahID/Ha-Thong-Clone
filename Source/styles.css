@@ -517,14 +517,8 @@ footer{
 
 /*  This is the section fo Java Script clasess*/
 
-/* 
-.show{
-    display:block;
-    height: 150vh;
-    width: 100%;
-    background-color: rgb(179, 30, 30);
-    
-} */
+
+
 
 #shopBag{
     display: none;
@@ -546,11 +540,30 @@ footer{
     width: 100%;
     border-bottom: 1px solid white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
    
 }
+
+:where(.mainHead) :is(h2){
+    color:white;
+    font-family: lora;
+    padding-left: 0.5rem;
+}
+
+:where(.mainHead) :is(button){
+    color:white;
+    border: 0px;
+    background-color: transparent;
+
+}
+
+.mainHead button svg:hover{
+    transition:all 0.6s ease 0s;
+    color:#666464;
+}
+
 /*
 .cartHead {
     color: white;
