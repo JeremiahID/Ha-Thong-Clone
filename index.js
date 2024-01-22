@@ -12,6 +12,14 @@ Cart.addEventListener('click', () =>{
     }
 })
 
+Close_cart.addEventListener('click', () =>{
+    if(ShopBags.style.display === "block"){
+        ShopBags.style.display = "none";
+    } else {
+        ShopBags.style.display = "block";
+    }
+})
+
 
 
 
