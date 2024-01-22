@@ -2,6 +2,7 @@
 const menu = document.querySelector('#menu');
 const Cart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
+const Close_cart = document.querySelector('#close_cart');
 
 Cart.addEventListener('click', () =>{
     if(ShopBags.style.display === "none"){
@@ -9,7 +10,7 @@ Cart.addEventListener('click', () =>{
     } else{
         ShopBags.style.display = "none";
     }
-} )
+})
 
 
 
