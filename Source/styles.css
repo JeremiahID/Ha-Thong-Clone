@@ -84,10 +84,14 @@ h1 a{
 }
 
 .sectionOne{
-    background-image: url("../Images/hero_cover.jpg");
-    background-position: center;
-    background-size: cover;
     height: 91vh;
+    width: 100%;
+}
+
+.sectionOne img{
+    object-fit: cover;
+    height: 91vh;
+    width: 100%;
 }
 
 .sectionOneShow{
@@ -524,12 +528,12 @@ footer{
 
 #shopBag{
     display: none;
-    border: 1px solid rgba(95, 92, 92, 0.562);
+    border-top: 1px solid white;
     width: 30%;
     height: 85vh;
     background-color: rgb(255, 255, 255);
     float: right;
-    position:sticky;
+    position:absolute;
     top: 9vh;
     right: 0vw; 
     transition: all 0.4s ease-in 0s;
@@ -537,11 +541,13 @@ footer{
 }
 
 .mainHead{
-    background-color: #3d393954;
+    background-color: #B6B6B6;
     height: 10vh;
     width: 100%;
     border-bottom: 1px solid white;
-    transition: all 0.4s ease-in 0s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
    
 }

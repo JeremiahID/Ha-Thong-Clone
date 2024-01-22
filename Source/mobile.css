@@ -42,10 +42,29 @@
         text-align: center;
     
     }
+
+    #shopBag{
+
+        width: 50%;
+
+    
+    }
     
 }
 
 @media screen and (max-width:430px) {
+
+    .sectionOne{
+        height: 91vh;
+        width: 100%;
+    }
+    
+    .sectionOne img{
+        object-fit: cover;
+        height: 91vh;
+        width: 100%;
+    }
+    
 
     .thirdHead{
         height: 250vh;
