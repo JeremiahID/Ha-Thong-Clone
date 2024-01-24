@@ -90,6 +90,7 @@ h1 a{
 
 .sectionOne img{
     object-fit: cover;
+    object-position: top;
     height: 91vh;
     width: 100%;
 }
