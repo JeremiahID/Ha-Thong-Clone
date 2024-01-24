@@ -37,7 +37,7 @@ body{
     height: 100vh;
 }
 
-header{
+#header{
     height: 9vh;
     background-color: #B6B6B6;
     position: sticky;
@@ -565,16 +565,30 @@ footer{
     color:#666464;
 }
 
-/*
-.cartHead {
-    color: white;
-    text-align: center;
-    padding-top: 2.9vh;
-    font-family: Nanum Myeongjo;
-    font-weight: lighter;
+#hamburger{
+    display: none;
+    width: 100%;
+    height: 200vh;
+    background-color: red;
+}
 
-} */
 
-/* .cartSummary{
-    display:block;
-} */
+
+
+
+
+
+
+    /*
+    .cartHead {
+        color: white;
+        text-align: center;
+        padding-top: 2.9vh;
+        font-family: Nanum Myeongjo;
+        font-weight: lighter;
+
+    } */
+
+    /* .cartSummary{
+        display:block;
+    } */

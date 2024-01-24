@@ -1,5 +1,6 @@
 /*this is the js for the hambuger drop down*/
 const menu = document.querySelector('#menu');
+const Hamburger = document.querySelector('#hamburger');
 const Cart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
 const Close_cart = document.querySelector('#close_cart');
@@ -17,6 +18,14 @@ Close_cart.addEventListener('click', () =>{
         ShopBags.style.display = "none";
     } else {
         ShopBags.style.display = "block";
+    }
+})
+
+
+menu.addEventListener('click' , () =>{
+    if(Hamburger.style.display === "none"){
+        Hamburger.style.display = "block";
+        
     }
 })
 
