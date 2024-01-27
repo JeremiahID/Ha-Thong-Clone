@@ -8,6 +8,8 @@ const SectionOne = document.querySelector('.sectionOne');
 const SectionTwo = document.querySelector('.sectionTwo');
 const SectionThree = document.querySelector('.sectionThree');
 const SectionFour = document.querySelector('.sectionFour');
+const Header = document.querySelector('#header');
+
 
 Cart.addEventListener('click', () =>{
     if(ShopBags.style.display === "none"){
@@ -33,6 +35,10 @@ menu.addEventListener('click' , () =>{
         SectionTwo.classList.add('hide');
         SectionThree.classList.add('hide');
         SectionFour.classList.add('hide');
+        Header.classList.add('menuHeader');
+        Header.style.background = "transparent";
+        Header.style.position = "absolute"
+
         
     } else {
         Hamburger.style.display = "none";
@@ -40,6 +46,9 @@ menu.addEventListener('click' , () =>{
         SectionTwo.classList.remove('hide');
         SectionThree.classList.remove('hide');
         SectionFour.classList.remove('hide');
+        Header.classList.remove('menuHeader');
+        Header.style.position = "sticky";
+        Header.style.background = " #B6B6B6"
     }
 })
 
@@ -49,7 +58,10 @@ menu.addEventListener('click' , () =>{
 
 // menu.addEventListener('click' , () => {
 //     hiddenMenu.classList.toggle("show");
+
 // })
+
+// TO REMOVE A N ID JUSST ADD THE IdName.REMOVE()
 
 
 // /*this is the js for the sectionOne display none */
