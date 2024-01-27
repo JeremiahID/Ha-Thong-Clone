@@ -4,10 +4,10 @@ const Hamburger = document.querySelector('#hamburger');
 const Cart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
 const Close_cart = document.querySelector('#close_cart');
-const SectionOne = ducument.querySelector('.sectionOne');
-const SectionTwo = ducument.querySelector('.sectionOne');
-const SectionThree = ducument.querySelector('.sectionThree');
-const SectionFour = ducument.querySelector('.sectionFour');
+const SectionOne = document.querySelector('.sectionOne');
+const SectionTwo = document.querySelector('.sectionOne');
+const SectionThree = document.querySelector('.sectionThree');
+const SectionFour = document.querySelector('.sectionFour');
 
 Cart.addEventListener('click', () =>{
     if(ShopBags.style.display === "none"){
@@ -29,9 +29,11 @@ Close_cart.addEventListener('click', () =>{
 menu.addEventListener('click' , () =>{
     if(Hamburger.style.display === "none"){
         Hamburger.style.display = "block";
+        SectionOne.classList.add('hide');
         
     } else{
         Hamburger.style.display = "none";
+        SectionOne.classList.remove('hide')
     }
 })
 

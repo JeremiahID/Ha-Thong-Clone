@@ -572,6 +572,9 @@ footer{
     background-color: red;
 }
 
+.hide{
+    display: none;
+}
 
 
 
