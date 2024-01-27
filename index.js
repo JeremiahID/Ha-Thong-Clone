@@ -5,7 +5,7 @@ const Cart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
 const Close_cart = document.querySelector('#close_cart');
 const SectionOne = document.querySelector('.sectionOne');
-const SectionTwo = document.querySelector('.sectionOne');
+const SectionTwo = document.querySelector('.sectionTwo');
 const SectionThree = document.querySelector('.sectionThree');
 const SectionFour = document.querySelector('.sectionFour');
 
@@ -30,10 +30,16 @@ menu.addEventListener('click' , () =>{
     if(Hamburger.style.display === "none"){
         Hamburger.style.display = "block";
         SectionOne.classList.add('hide');
+        SectionTwo.classList.add('hide');
+        SectionThree.classList.add('hide');
+        SectionFour.classList.add('hide');
         
-    } else{
+    } else {
         Hamburger.style.display = "none";
-        SectionOne.classList.remove('hide')
+        SectionOne.classList.remove('hide');
+        SectionTwo.classList.remove('hide');
+        SectionThree.classList.remove('hide');
+        SectionFour.classList.remove('hide');
     }
 })
 
