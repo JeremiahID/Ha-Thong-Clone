@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,600&family=Nanum+Myeongjo&display=swap');
 
 @media screen and (max-width:770px) {
-    .sectionTwo    .Head{
+    .sectionTwo    .Head, .sectionTwoMenu .Head{
         display: none;
     }
 
@@ -23,7 +23,7 @@
         display: none;
     }
 
-    .sectionThree p{
+    .sectionThree p, .sectionThreeMenu p{
         text-align: center;
     }
     
@@ -33,6 +33,13 @@
 
     .bestSellerOneDress, .bestSellerTwoDress, .bestSellerThreeDress, .bestSellerFourDress {
         background-size: contain;
+
+    
+    }
+
+    .bestSellerOneDressMenu, .bestSellerTwoDressMenu, .bestSellerThreeDressMenu, .bestSellerFourDressMenu {
+        background-size: contain;
+        background-position: center;
 
     
     }
@@ -77,7 +84,12 @@
         grid-row: span 1;
     }
 
-    .sectionFour{
+    .container-one-menu , .container-two-menu , .container-three-menu {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .sectionFour, .sectionFourMenu{
         height: 260vh;
     }
 
@@ -96,6 +108,13 @@
     }
 
     .bestSellerOneDress, .bestSellerTwoDress, .bestSellerThreeDress, .bestSellerFourDress {
+        height: 45vh;
+        background-size: contain;
+        border: 1px solid #E6E6E6;
+    
+    }
+
+    .bestSellerOneDressMenu, .bestSellerTwoDressMenu, .bestSellerThreeDressMenu, .bestSellerFourDressMenu {
         height: 45vh;
         background-size: contain;
         border: 1px solid #E6E6E6;

@@ -159,7 +159,7 @@ hr{
     width: 60%;
 }
 
-.sectionTwo .secondHead, .sectionTwoMenu .secondHead{
+.sectionTwo .secondHead, .sectionTwoMenu .secondHeadMenu{
     height: 15vh;
     border-bottom: 1px solid #E6E6E6;
     display: flex;
@@ -593,6 +593,13 @@ footer{
 
 .sectionTwoMenu{
     border: 1px solid #B8B8B8;
+}
+
+.secondHeadMenu h1{
+    font-family: Nanum Myeongjo;
+    color:rgba(180, 48, 114, 0.486);
+    letter-spacing: 5px;
+    font-size: 2rem;
 }
 
 .container-one-menu{
