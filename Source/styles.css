@@ -159,7 +159,7 @@ hr{
     width: 60%;
 }
 
-.sectionTwo .secondHead{
+.sectionTwo .secondHead, .sectionTwoMenu .secondHead{
     height: 15vh;
     border-bottom: 1px solid #E6E6E6;
     display: flex;
@@ -172,6 +172,7 @@ hr{
     font-family: Nanum Myeongjo;
     color: #B8B8B8;
     letter-spacing: 5px;
+    font-size: 2rem;
 }
 
 .thirdHead{
@@ -292,7 +293,7 @@ hr{
     padding-left: 20vw;
 }
 
-:where(.sectionThree) :is(p){
+:where(.sectionThree, .sectionThreeMenu) :is(p){
     color: rgba(0, 0, 0, 0.767);
     font-family: Lora;
     font-size: 1rem;
@@ -305,7 +306,7 @@ hr{
 
 }
 
-.sectionFour .topHead{
+.sectionFour .topHead, .sectionFourMenu .topHead{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -518,7 +519,7 @@ footer{
 }
 
 
-/*  This is the section fo Java Script clasess*/
+                /*  This is the section fo Java Script clasess*/
 
 /* this is the styling for the cart section of the header*/
 
@@ -576,8 +577,6 @@ footer{
 
 }
 
-
-
 .sectionOneMenu{
     height: 91vh;
     width: 100%;
@@ -585,14 +584,141 @@ footer{
 
 .sectionOneMenu img{
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     height: 91vh;
     width: 100%;
 }
 
+
+
 .sectionTwoMenu{
     border: 1px solid #B8B8B8;
 }
+
+.container-one-menu{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url("../Images/menu-frame-one-model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-one-menu:hover{
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-frame-one.jpeg");
+    cursor: pointer;   
+    background-position: center;
+}
+
+.container-two-menu{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url("../Images/menu-frame-two-model.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-two-menu:hover{
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-frame-two.jpg");
+    cursor: pointer;
+    background-position: center;
+}
+
+.container-three-menu{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url("../Images/menu-frame-three.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-three-menu:hover{
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-frame-three-model.jpg");
+    cursor: pointer;
+    background-position: center;
+}
+
+.sectionThreeMenu{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sectionFourMenu{
+    height: 100vh;
+
+}
+
+.bestSellerOneDressMenu, .bestSellerTwoDressMenu, .bestSellerThreeDressMenu, .bestSellerFourDressMenu {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #E6E6E6;
+
+}
+
+.bestSellerOneDressMenu{
+    background-image: url("../Images/menu-best-seller-one.jpeg");
+    background-position: center;
+}
+
+.bestSellerOneDressMenu:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-best-seller-one-model.jpg");
+    background-position: center;
+}
+
+.bestSellerTwoDressMenu{
+    background-image: url("../Images/menu-best-seller-two.jpeg");
+    background-position: center;
+
+}
+
+.bestSellerTwoDressMenu:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-best-seller-one-model.jpg");
+    background-position: center;
+    
+}
+
+.bestSellerThreeDressMenu{
+    background-image: url("../Images/menu-best-seller-three.jpeg");
+    background-position: center;
+
+}
+
+.bestSellerThreeDressMenu:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-best-seller-three-model.jpg");
+    background-position: center;
+
+}
+
+.bestSellerFourDressMenu{
+    background-image: url("../Images/menu-best-seller-four.jpeg");
+    background-position: center;
+
+}
+
+.bestSellerFourDressMenu:hover{
+    cursor: pointer;
+    transition: all 1s ease 0s;
+    background-image: url("../Images/menu-best-seller-four-model.jpg");
+    background-position: center;
+
+}
+
 
 .hide{
     display: none;
