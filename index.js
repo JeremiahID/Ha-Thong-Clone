@@ -10,7 +10,6 @@ const SectionThree = document.querySelector('.sectionThree');
 const SectionFour = document.querySelector('.sectionFour');
 const Header = document.querySelector('#header');
 
-
 Cart.addEventListener('click', () =>{
     if(ShopBags.style.display === "none"){
         ShopBags.style.display = "block";
