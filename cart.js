@@ -12,7 +12,6 @@ const ShopBags = document.querySelector('#shopBag');
 const MainHead = document.querySelector('.mainHead');
 const CartHead  =  document.querySelector('.cartSummary');
 
-
 shoppingCart.addEventListener('click' , () => {
     ShopBags.classList.toggle("shop");
     MainHead.classList.toggle("mainHeader");
