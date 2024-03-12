@@ -26,7 +26,6 @@ Close_cart.addEventListener('click', () =>{
     }
 })
 
-
 menu.addEventListener('click' , () =>{
     if(Hamburger.style.display === "none"){
         Hamburger.style.display = "block";
