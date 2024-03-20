@@ -5,7 +5,6 @@ window.onload = function() {
   CartSum.style.display = "none";
 }
 
-
 /*this is the js for the cart drop down*/
 const shoppingCart = document.querySelector('#cart');
 const ShopBags = document.querySelector('#shopBag');
