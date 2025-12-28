@@ -1,4 +1,4 @@
-/* Thisis for the cart section upon window.Load*/
+/* This is for the cart section upon window.Load*/
 
 window.onload = function() {
   const CartSum  =  document.querySelector('.cartSummary');
