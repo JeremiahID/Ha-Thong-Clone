@@ -50,10 +50,6 @@ menu.addEventListener('click' , () =>{
     }
 })
 
-
-
-
-
 // menu.addEventListener('click' , () => {
 //     hiddenMenu.classList.toggle("show");
 
